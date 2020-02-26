@@ -31,7 +31,7 @@ public class Fordito {
                     } else if (s.charAt(i) == '{') {
                         Type = "{";
                         System.out.println(Type);
-                    } else if (s.charAt(i) == '{') {
+                    } else if (s.charAt(i) == '}') {
                         Type = "}";
                         System.out.println(Type);
                     } else if (s.charAt(i) == '(') {
